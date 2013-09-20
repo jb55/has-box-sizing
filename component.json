@@ -1,0 +1,14 @@
+{
+  "name": "has-box-sizing",
+  "repo": "jb55/has-box-sizing",
+  "description": "Returns true if the browser has box sizing",
+  "version": "0.0.1",
+  "keywords": ["has", "support", "box-sizing", "box"],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
