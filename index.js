@@ -9,7 +9,7 @@ function swap(elem, options, cb) {
     elem.style[name] = options[name];
   }
 
-  ret = callback(elem);
+  ret = cb(elem);
 
   // Revert the old values
   for (name in options) {
@@ -17,7 +17,7 @@ function swap(elem, options, cb) {
   }
 
   return ret;
-};
+}
 
 
 module.exports = (function() {
